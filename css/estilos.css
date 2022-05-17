@@ -196,7 +196,6 @@ textarea{
             position: absolute;
             left: 0;
             top: 0;
-                         Contenido: "Spotlight";
             background: -webkit-linear-gradient(left, #c23636, #192a56, #00d2d3, yellow, #6d2a4f, #2e86de, #4cd137, #e84118);
             -webkit-background-clip: text;
             color: transparent;

@@ -185,3 +185,34 @@ textarea{
 		height: 100%;
 		object-fit: cover;
 	}
+        h1 {
+            position: relative;
+            color: #333333;
+            font-size: 8rem;
+        }
+ 
+        h1::after {
+            position: absolute;
+            left: 0;
+            top: 0;
+                         Contenido: "Spotlight";
+            background: -webkit-linear-gradient(left, #c23636, #192a56, #00d2d3, yellow, #6d2a4f, #2e86de, #4cd137, #e84118);
+            -webkit-background-clip: text;
+            color: transparent;
+            -webkit-clip-path: circle(100px at 0% 50%);
+            animation: light linear 4s infinite alternate;
+        }
+ 
+        @keyframes light {
+            0% {
+                -webkit-clip-path: circle(100px at 0% 50%);
+            }
+ 
+            50% {
+                -webkit-clip-path: circle(100px at 50% 50%);
+            }
+ 
+            100% {
+                -webkit-clip-path: circle(100px at 100% 50%);
+            }
+        }
